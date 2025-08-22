@@ -11,6 +11,7 @@ from langgraph.graph.message import add_messages, MessagesState
 from langgraph.checkpoint.memory import InMemorySaver
 from langgraph.prebuilt.chat_agent_executor import AgentState
 
+
 # 1. Connect to SQLite DB
 def get_db_connection():
     """Returns a new database connection and cursor."""
